@@ -96,15 +96,7 @@ namespace dataLayer.Repository
                 StartDate = DateTime.Parse($"23/10/{DateTime.Now.Year}"),
                 EndDate = DateTime.Parse($"21/11/{DateTime.Now.Year}")
             };
-            _Id = _Id+ 1;
-            Signo_Zodiaco Acuario = new()
-            {
-                Id = _Id  ,
-                Title = "Acuario",
-                StartDate = DateTime.Parse($"20/01/{DateTime.Now.Year}"),
-                EndDate = DateTime.Parse($"18/02/{DateTime.Now.Year}")
-            };
-            _Id = _Id+ 1;
+            _Id = _Id+ 1;            
             Signo_Zodiaco Sagitario = new()
             {
                 Id = _Id  ,
@@ -121,6 +113,14 @@ namespace dataLayer.Repository
                 EndDate = DateTime.Parse($"19/01/{DateTime.Now.Year + 1}")
             };
             _Id = _Id+ 1;
+            Signo_Zodiaco Acuario = new()
+            {
+                Id = _Id,
+                Title = "Acuario",
+                StartDate = DateTime.Parse($"20/01/{DateTime.Now.Year}"),
+                EndDate = DateTime.Parse($"18/02/{DateTime.Now.Year}")
+            };
+            _Id = _Id + 1;
             Signo_Zodiaco Piscis = new()
             {
                 Id = _Id  ,
@@ -137,9 +137,9 @@ namespace dataLayer.Repository
             SignosZodiacosList.Add(Virgo);
             SignosZodiacosList.Add(Libra);
             SignosZodiacosList.Add(Escorpion);
-            SignosZodiacosList.Add(Acuario);
             SignosZodiacosList.Add(Sagitario);
             SignosZodiacosList.Add(Capricornio);
+            SignosZodiacosList.Add(Acuario);
             SignosZodiacosList.Add(Piscis);
         }
 

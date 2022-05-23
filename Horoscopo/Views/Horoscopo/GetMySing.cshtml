@@ -1,0 +1,23 @@
+﻿@model dataLayer.Models.UserSign;
+@{
+    ViewData["Title"] = "Ver mi Horoscopo";
+}
+
+<div class=" col-6 offset-3">
+    <div class="mt-xl-5 card">
+        <div class="card-header bg-black">
+            <h4 class="text-white fs-3">Verificar Singo Zodiaco</h4>
+        </div>
+        <div class="card-body">
+            <form method="post" asp-controller="Horoscopo" asp-action="GetMySing">
+                <div class="mb-3">
+                    <label asp-for="bDay" class="form-label fs-4">Introduzca su fecha de nacimiento</label>
+                    <input asp-for="bDay" type="date" class="form-control" id="bDay">
+                    <input asp-for="Signo" type="text" readonly value="@Model.Signo.Title" class="form-control" id="Signo">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+

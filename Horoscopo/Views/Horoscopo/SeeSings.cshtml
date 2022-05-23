@@ -1,0 +1,28 @@
+﻿@model List<dataLayer.Models.Signo_Zodiaco>
+@{
+    ViewData["Title"] = "Ver signos zodiacos";
+}
+
+<div class=" col-12 ">
+    <table class="table">
+        <thead class="bg-info">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Inicio</th>
+                <th scope="col">Fin</th>
+            </tr>
+        </thead>
+        <tbody>            
+                @foreach (var item in Model)
+                {
+            <tr>
+                <th scope="row">@item.Id</th>
+                <td>@item.Title</td>
+                <td>@item.StartDate.Day/@item.StartDate.Month Valido para cualquier año</td>
+                <td>@item.EndDate.Day/@item.EndDate.Month Valido para cualquier año</td>
+            </tr>
+                }                  
+        </tbody>
+    </table>
+</div>

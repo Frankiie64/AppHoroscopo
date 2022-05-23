@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Horoscopo", "Horoscopo\Horoscopo.csproj", "{238F1216-C2CE-4A89-8DAD-8D11AE6EF2FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dataLayer", "dataLayer\dataLayer.csproj", "{E0E19970-9F17-43F3-9E5A-2939C4B84F95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{238F1216-C2CE-4A89-8DAD-8D11AE6EF2FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{238F1216-C2CE-4A89-8DAD-8D11AE6EF2FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{238F1216-C2CE-4A89-8DAD-8D11AE6EF2FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{238F1216-C2CE-4A89-8DAD-8D11AE6EF2FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0E19970-9F17-43F3-9E5A-2939C4B84F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0E19970-9F17-43F3-9E5A-2939C4B84F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0E19970-9F17-43F3-9E5A-2939C4B84F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E19970-9F17-43F3-9E5A-2939C4B84F95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24DD7B9A-6483-4BFB-958A-69416D88AA40}
+	EndGlobalSection
+EndGlobal
